@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projekts Medicīna</title>
+    <style>
+        button {
+    background-color: #AFCDE7;
+    border: 2px solid #AFCDE7;
+    border-radius: 25px;
+    color: black;
+    padding: 40px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 34px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    cursor: pointer;
+        }
+        button:hover {
+    background-color: white;
+    color: black;
+    
+    }
+        
+      .container {
+
+    color:rgb(3, 3, 3);
+    font-size:1.5rem
+
+
+}
+
+html, body{
+    height:100%;
+}
+body {
+    margin:0;
+    background: linear-gradient(45deg,#12c2e9,#c471ed,#f64f59);
+    background-size: 200% 200%;
+    animation:gradient 10s ease infinite ;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+    </style>
+</head>
+<body>
+      <nav>
+      <ul>
+  <div align="left" id="button_1">
+          <button><a href="/Klients">Klients</a></button>
+        </div>
+      </ul>
+   </nav>
+   <nav>
+      <ul>
+    <h1 align="center">Admnistrators</h1>
+
+        <div align="center" id button>
+          <button><a href="/arstu">Arstu pievienošana</a></button>
+        </div>
+        <div align="center" id button>
+          <button><a href="/slimnicas">Slimnicu pievienošana</a></button>
+        </div>
+    </div>
+    </ul>
+  </nav>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?php
+/*reqire_once  "1/1.php";
+
+
+?>
+<meta charset="utf-8">
+<title><?=$title?></title>
+<link href="" */
